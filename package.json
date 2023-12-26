@@ -1,0 +1,46 @@
+{
+  "name": "focus-timer-web-app",
+  "version": "1.0.0",
+  "description": "A web app to assist individuals in maintaining focus on tasks through customizable auditory reminders and a user-friendly interface.",
+  "main": "pages/index.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "jest"
+  },
+  "keywords": [
+    "focus",
+    "timer",
+    "web app",
+    "neurodivergent",
+    "ADD",
+    "auditory reminders"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "howler": "^2.2.4",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "speak-tts": "^2.0.8",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "@types/react": "^17.0.21",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "latest",
+    "jest": "^27.2.3",
+    "ts-jest": "^27.0.5"
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
